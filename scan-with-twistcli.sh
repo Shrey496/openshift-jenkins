@@ -10,6 +10,6 @@ echo "Running twistcli hosts scan..."
   --user "$PRISMA_USER" \
   --password '$PRISMA_PASS' \
   --skip-docker \
+  --include-3rd-party \
   --details
-  --include-3rd-party
 
